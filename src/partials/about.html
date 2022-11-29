@@ -1,0 +1,63 @@
+<section class="about" id="about">
+  <div class="container container-about">
+    <p class="about-label">tradition and love</p>
+    <h2 class="about-title">how it’s made?</h2>
+    <div class="about-wrap">
+      <div class="about-image">
+        <picture class="about-image-cow">
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              /src/images/about/cow-desktop.png    1x,
+              /src/images/about/cow-desktop@2x.png 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /src/images/about/cow-tablet.png    1x,
+              /src/images/about/cow-tablet@2x.png 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              /src/images/about/cow-mobile.png    1x,
+              /src/images/about/cow-mobile@2x.png 2x
+            "
+          />
+          <img
+            class="image"
+            src="/src/images/about/cow-desktop.png"
+            alt="Picture of cow"
+            width="500"
+          />
+        </picture>
+      </div>
+      <div class="about-text-wrap">
+        <p class="about-text">
+          Ice is a place where you will become not only a little happier, but
+          also healthier. Health is the main value for us, and we follow it when
+          creating our handmade desserts.
+        </p>
+        <p class="about-text">
+          We use traditional recipes and 100% natural ingredients. Our products
+          are so natural that they can be given to children from the age of
+          three years. Sweets lovers can expect 55 types of ice cream, 15 types
+          of coffee and 23 milkshakes.
+        </p>
+        <p class="about-text">
+          This is enough to choose ice cream and coffee for any mood!
+        </p>
+        <button class="btn-read about-btn" type="button" data-modal-open>
+          Read more
+          <svg class="about-icon" width="12" height="12">
+            <use
+              href="/src/images/icon.svg/symbol-defs.svg#icon-ep_arrow-right-bold"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
